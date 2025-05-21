@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Zombieland demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <script type="text/javascript" src="js/tracerShader.js"></script>
+    <script type="text/javascript" src="js/TextureAnimator.js"></script>
+    <script type="text/javascript" src="js/Stats.js"></script>
+    <script type="text/javascript" src="js/SkeletonController.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/loader.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/mob.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/controls.js"></script>
+    <script type="text/javascript" src="js/weapon.js"></script>
+    <script type="text/javascript" src="js/muzzle_smoke.js"></script>
+    <script type="text/javascript" src="js/fa_bullet.js"></script>
+    <script type="text/javascript" src="js/dust.js"></script>
+    <script type="text/javascript" src="js/blood.js"></script>
+    <script type="text/javascript" src="js/drop.js"></script>
+    <script type="text/javascript" src="js/weapon_drop.js"></script>
+    <script type="text/javascript" src="js/hp_booster.js"></script>
+    <script type="text/javascript" src="js/booster.js"></script>
+    <script type="text/javascript" src="js/shield.js"></script>
+    <script type="text/javascript" src="js/powerup.js"></script>
+    <script type="text/javascript" src="js/speedup.js"></script>
+    <script type="text/javascript" src="gamedata/maps.js"></script>
+    <script type="text/javascript" src="gamedata/weapons.js"></script>
+    <script type="text/javascript" src="gamedata/splashes.js"></script>
+
+
+</head>
+
+<body>
+    <div id="world">
+
+    </div>
+    <div id="hp"></div>
+    <div id="controlls">
+    WSAD - moving</br>
+    Left Mouse - fire <br/>
+    ESC - pause
+    </div>
+    <div id="score">0</div>
+    <div id="result_stat">
+        <div class="header">
+            <div>Player</div>
+
+            <div>Weapon</div>
+            <div>Kills</div>
+            <div>Score</div>
+
+        </div>
+        <div class="rows">
+
+        </div>
+        <div id="restart">Restart</div>
+    </div>
+
+    <div id="pause">Pause</div>
+    <div id="loader_bg">
+        <div id="loader">
+            <div class="ball"></div>
+            <div class="ball1"></div>
+            Loading...
+        </div>
+    </div>
+
+</body>
+
+</html>
